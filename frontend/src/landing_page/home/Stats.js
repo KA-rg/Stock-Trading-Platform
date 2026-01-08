@@ -2,20 +2,24 @@ import React from 'react'
 
 function Stats() {
   return (
-    <section className="stats">
-      <div className="stat-item">
-        <h3>10K+</h3>
-        <p>Active Users</p>
-      </div>
-      <div className="stat-item">
-        <h3>500+</h3>
-        <p>Trading Pairs</p>
-      </div>
-      <div className="stat-item">
-        <h3>24/7</h3>
-        <p>Support</p>
-      </div>
-    </section>);
+      <div className='container'>
+        <div className='row'>
+          <div className='col-6'>
+            <h1>Trust with Confidence</h1>
+            <h3>10K+ Active Users</h3>
+            <p>Join a thriving community of traders worldwide.</p>
+            <h3>500+ Trading Pairs</h3>
+            <p>Diversify your portfolio with a wide range of options.</p>
+            <h3>24/7 Support</h3>
+            <p>We're here to help you anytime, anywhere.</p>
+
+          </div>
+          <div className='col-6'>
+            <img src='/images/users.png' alt='Active Users' />
+            
+          </div>
+        </div>
+      </div>);
 }
 
 export default Stats;
